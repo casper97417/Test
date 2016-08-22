@@ -13,6 +13,8 @@ public class FBscript : MonoBehaviour {
 	public GameObject DialogUsername;
 	public GameObject DialogProfilePic;
 
+	public GameObject Test;
+	public GameObject Test2;
 	void Awake(){
 		FB.Init (SetInit, OnHideUnity);
 	}
